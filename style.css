@@ -1,0 +1,54 @@
+body {
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+#conteneur {
+    background-color: wheat;
+    width: 400px;
+    height: 900px;
+}
+
+#ecran {
+    display: flex;
+    background-color: black;
+    
+    color: green;
+    height: 50px;
+    width: 100%;
+
+    justify-content: end;
+}
+#ecran p {
+    padding-right: 10px;
+}
+#bouttons {
+    display: inline-block;
+    text-align: center;
+    padding-top: 10px;
+    justify-content: space-between;
+    height: 500px;
+}
+#bouttons button {
+    height: 100px;
+    width: 100px; 
+    margin: 2px;
+       
+}
+#bouttons .boutNormaux {
+    background-color: gray;
+}
+#bouttons .boutCalcul {
+    background-color: yellow;
+}
+
+#egal {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
