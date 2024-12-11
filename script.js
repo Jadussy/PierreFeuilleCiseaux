@@ -5,6 +5,7 @@ const pNode = document.getElementById("ecrit")
 const Pierre = document.getElementById("Pierre");
 const Feuille = document.getElementById("Feuille");
 const Ciseaux = document.getElementById("Ciseaux");
+//zdzezefz
 
 Pierre.addEventListener("click", (event) => {
     pNode.innerText = "Pierre";
