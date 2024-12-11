@@ -26,9 +26,6 @@ function OrdiChoixRandom() {
 }
 
 // Ecriture du choix de l'ordi dans la page
-
-
-
 alert("tour "+tour);
 tour = tour + 1;
 
